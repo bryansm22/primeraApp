@@ -12,12 +12,12 @@
 
 <script>
 //import HelloWorld from './components/HelloWorld.vue'
-import AppSplitter from './AppSplitter.vue';
-//import pagina1 from './components/fPage.vue'
+//import AppSplitter from './AppSplitter.vue';
+import pagina1 from './components/fPage.vue'
 
 export default {
   beforeCreate() {
-    this.$store.commit('navigator/push', AppSplitter);
+    this.$store.commit('navigator/push', pagina1);
   },
   data() {
     return {

@@ -28,7 +28,7 @@ export default {
   name: 'App',
   methods: {
     push(){
-      this.$emit('push-page', pagina2);
+      this.$store.commit('navigator/push',pagina2)
     }
   },
   data(){
