@@ -17,7 +17,7 @@ Vue.config.productionTip = false
 
 new Vue({
   render: h => h(App),
-  store: new Vuex.store(storeLike),
+  store: new Vuex.Store(storeLike),
   beforeCreate() {
     // Shortcut for Material Design
     Vue.prototype.md = this.$ons.platform.isAndroid();
